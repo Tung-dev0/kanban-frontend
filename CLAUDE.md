@@ -2,7 +2,7 @@
 
 Vue 3 SPA for the Kanban app — Vite + Pinia + Vue Router, dark editorial-modern theme.
 
-> This repo is a **submodule** of [kanban-console-pane](https://github.com/Tung-dev0/kanban-console-pane) (control plane). Org-level CLAUDE.md, agents, slash commands, and MCP config live there.
+> This repo is a **submodule** of [kanban-control-plane](https://github.com/Tung-dev0/kanban-control-plane) (control plane). Org-level CLAUDE.md, agents, slash commands, and MCP config live there.
 
 ## Quick start
 ```bash
@@ -10,7 +10,7 @@ npm install
 npm run dev         # http://localhost:5173 (Vite dev)
 ```
 
-Or via the parent compose (preferred — runs behind nginx with the backend): see `kanban-console-pane`.
+Or via the parent compose (preferred — runs behind nginx with the backend): see `kanban-control-plane`.
 
 ## Stack
 - Vue 3 + `<script setup>` Composition API
